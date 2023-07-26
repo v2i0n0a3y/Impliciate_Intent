@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/yuvi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_background"
+            android:gravity="center|center_horizontal|left"
+            android:padding="5dp"
+            android:text="Yuvaraj Sing"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/halant_light"
+            android:gravity="center"
+            android:text="@string/Allrounder"
+            android:textColor="@color/green"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="@string/cricket"
+            android:textColor="#F3EEEE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnshare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/green"
+            android:gravity="left|center_vertical"
+            android:text="Share Options"
+            android:textColor="#F4F1F1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
